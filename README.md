@@ -1,6 +1,6 @@
-# AgnualrPokadot
+# PayGatePanel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
 ## Development server
 

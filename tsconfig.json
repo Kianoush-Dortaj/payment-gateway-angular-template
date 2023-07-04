@@ -3,16 +3,31 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@app/*": [
+        "app/*"
+      ],
+      "@app/core/*": [
+        "app/core/*"
+      ],
+      "@app/views/*": [
+        "app/views/*"
+      ],
+      "@app/shared/*": [
+        "app/shared/*"
+      ],
+      "@env/*": [
+        "environments/*"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
-    "allowJs": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
-    "allowSyntheticDefaultImports": true,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
