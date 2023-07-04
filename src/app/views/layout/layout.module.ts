@@ -8,6 +8,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ToggleService } from './components/header/toggle.service';
 import { HeaderComponent } from './components/header/header.component';
 import { CustomizerSettingsComponent } from 'src/app/views/layout/components/customizer-settings/customizer-settings.component';
+import { FileManagerComponent } from './components/file-manager/file-manager.component';
+import { FmSidebarComponent } from './components/file-manager/fm-sidebar/fm-sidebar.component';
 
 
 
@@ -17,7 +19,9 @@ import { CustomizerSettingsComponent } from 'src/app/views/layout/components/cus
     SidebarComponent,
     FooterComponent,
     HeaderComponent,
-    CustomizerSettingsComponent
+    CustomizerSettingsComponent,
+    FileManagerComponent,
+    FmSidebarComponent
   ],
   imports: [
     CommonModule,
