@@ -26,7 +26,8 @@ import { FmSidebarComponent } from './components/file-manager/fm-sidebar/fm-side
   imports: [
     CommonModule,
     LayoutRoutingModule,
-    SharedModule,
+    SharedModule
+    
   ]
 })
 export class LayoutModule { }

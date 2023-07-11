@@ -1,6 +1,6 @@
 
 <div
-    [ngClass]="{'blank-page': router.url === '/error-500' || router.url === '/authentication/reset-password' || router.url === '/authentication/forgot-password' || router.url === '/authentication/login' || router.url === '/authentication/register' || router.url === '/authentication/signin-signup' || router.url === '/authentication/logout' || router.url === '/authentication/confirm-mail' || router.url === '/authentication/lock-screen'}"
+    [ngClass]="{'blank-page': router.url === '/error-500' || router.url === '/auth/reset-password' || router.url === '/auth/forgot-password' || router.url === '/auth/login' || router.url === '/auth/register' || router.url === '/auth/signin-signup' || router.url === '/auth/logout' || router.url === '/auth/confirm-mail' || router.url === '/auth/lock-screen'}"
     [class.dark-theme]="themeService.isDark()"
     [class.card-borderd-theme]="themeService.isCardBorder()"
     [class.card-border-radius]="themeService.isCardBorderRadius()"
